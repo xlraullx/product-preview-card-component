@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product preview card component</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <div class="product-card">
+            <div class="product">
+                <picture>
+                    <source srcset="src/images/image-product-mobile.jpg" media="(max-width: 770px)">
+                    <img src="src/images/image-product-desktop.jpg" alt="Perfume image" class="image-product">
+                </picture>
+                <div class="about-card">
+                    <p class="product-type">Perfume</p>
+                    <h2 class="product-name">Gabrielle Essence Eau De Parfum</h2>
+                    <p class="about-product">
+                        A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                        Perfumer-Creator for the House of CHANEL.
+                    </p>
+                    <div class="product-price">
+                        <strong class="price">$149.99</strong>
+                        <span class="discount">$169.99</span>
+                    </div>
+                    <button class="bnt">
+                        <img src="src/images/icon-cart.svg" alt="icon of a cart">
+                        <p>Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
