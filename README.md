@@ -52,7 +52,7 @@ me esqueci de algumas coisas como por exemplo como usar medias queries ou como u
 
 ## Resolução do exercício
 
-- Site da resolução:
+- Site da resolução: https://xlraullx.github.io/product-preview-card-component/
 
 ## Autor 
 
